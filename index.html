@@ -4,18 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ICONOS -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <!-- ESTILOS -->
     <link rel="stylesheet" href="styles.css" />
+
     <title>Felipe C. Rios | Portfolio</title>
   </head>
 
   <body>
-    <nav>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
       <div class="nav__content">
-        <div class="logo"><a href="#">Felipe C. Rios</a></div>
+
+        <div class="logo">
+          <a href="#inicio">Felipe C. Rios</a>
+        </div>
+
         <label for="check" class="checkbox">
           <i class="ri-menu-line"></i>
         </label>
@@ -26,24 +37,36 @@
           <li><a href="#sobre-mi">Sobre mí</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#contacto">¡Contáctame!</a></li>
+          <li>
+            <a
+              href="https://wa.me/3122114428?text=Hola%20Felipe,%20vengo%20de%20tu%20página%20web%20y%20quiero%20tus%20servicios."
+              target="_blank"
+              class="btn-cta"
+            >
+              ¡Contáctame!
+            </a>
+          </li>
         </ul>
+
       </div>
     </nav>
 
+    <!-- SECCIÓN INICIO -->
     <section id="inicio" class="section">
       <div class="section__container">
+
         <div class="content">
           <p class="subtitle">Hola</p>
+
           <h1 class="title">
-            Soy <span>Juan Felipe<br /></span>Web Developer con propósito social
+            Soy <span>Juan Felipe<br /></span>
+            Web Developer con propósito social
           </h1>
+
           <p class="description">
             Bienvenid@ a mi portafolio. Aquí vas a encontrar los proyectos
-            sociales y/o tecnológicos en los que he trabajado, lo que he creado
-            con mis propias manos y lo que he aprendido en el camino. Este
-            espacio muestra quién soy, lo que hago y lo que me mueve. Gracias
-            por ver y por darte una vuelta por mi mundo.
+            sociales y/o tecnológicos en los que he trabajado, lo que he creado,
+            y lo que he aprendido en el camino. Gracias por darte una vuelta por mi mundo.
           </p>
 
           <div class="action__btns">
@@ -53,172 +76,159 @@
         </div>
 
         <div class="image">
-          <img src="assets/image.png" alt="profile" />
+          <img src="assets/image.png" alt="Foto de perfil de Felipe" />
         </div>
+
       </div>
     </section>
 
-    <section id="sobre-mi"></section>
-    <section id="proyectos"></section>
-    <section id="servicios"></section>
-    <section id="contacto"></section>
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section class="about-section" id="sobre-mi">
+      <div class="about-content">
 
-<!-- AQUIVA LA SECCION "SOBRE MI" <-->
- <section class="about-section" id="sobre-mi">
-  <div class="about-content">
-    <div class="about-img">
-      <img src="assets/image.png" alt="Foto personal">
-    </div>
+        <div class="about-img">
+          <img src="assets/image.png" alt="Foto personal">
+        </div>
 
-    <div class="about-text">
-      <h2>Sobre mí</h2>
-      <p>
-        Aquí puedes escribir tu historia, tu propósito, tu ADN profesional y el
-        impacto que buscas generar. Este espacio es para conectar desde lo humano
-        y lo estratégico.
-      </p>
-    </div>
-  </div>
-</section>
+        <div class="about-text">
+          <h2>Sobre mí</h2>
+          <p>
+            Aquí puedes escribir tu historia, tu propósito, tu ADN profesional
+            y el impacto que buscas generar. Este espacio es para conectar desde
+            lo humano y lo estratégico.
+          </p>
+        </div>
 
-<!-- AQUI VA PROYECTOS-->
-
-<section class="timeline" id="proyectos">
-  <h2 class="timeline__title">Proyectos</h2>
-
-  <div class="timeline__container">
-
-    <div class="timeline__item">
-      <div class="timeline__icon">
-        <img src="assets/proyecto1.png" alt="">
       </div>
-      <span class="timeline__year">2023</span>
-      <h3 class="timeline__heading">Fundación ROFÉ</h3>
-      <p class="timeline__text">
-        aqui inicia mi recorrido de monitor de jc, completar texto despuess3.
-      </p>
-    </div>
+    </section>
 
-    <div class="timeline__item">
-      <div class="timeline__icon">
-        <img src="assets/proyecto2.png" alt="">
+    <!-- SECCIÓN PROYECTOS -->
+    <section class="timeline" id="proyectos">
+      <h2 class="timeline__title">Proyectos</h2>
+
+      <div class="timeline__container">
+
+        <div class="timeline__item">
+          <div class="timeline__icon">
+            <img src="assets/ROFÉ.png" alt="Logo ROFÉ">
+          </div>
+          <span class="timeline__year">2023</span>
+          <h3 class="timeline__heading">Fundación ROFÉ</h3>
+          <p class="timeline__text">
+            Aquí inicia mi recorrido como monitor en Jóvenes Creativos.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__icon">
+            <img src="assets/ROFÉ.png" alt="Logo ROFÉ">
+          </div>
+          <span class="timeline__year">2024</span>
+          <h3 class="timeline__heading">Fundación ROFÉ</h3>
+          <p class="timeline__text">
+            Me vinculé a ROFÉ y trabajé en proyectos sociales con impacto comunitario.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__icon">
+            <img src="assets/ROFÉ.png" alt="Logo ROFÉ">
+          </div>
+          <span class="timeline__year">2025</span>
+          <h3 class="timeline__heading">Fundación ROFÉ</h3>
+          <p class="timeline__text">
+            Continué aportando a procesos de formación y acompañamiento social.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__icon">
+            <img src="assets/proyecto4.png" alt="Proyecto Semilleros">
+          </div>
+          <span class="timeline__year">2025</span>
+          <h3 class="timeline__heading">Semilleros</h3>
+          <p class="timeline__text">
+            Diseño del proyecto "Semilleros", para acercar jóvenes de bajos recursos a programas tecnológicos gratuitos y de calidad.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__icon">
+            <img src="assets/FLV.png" alt="Fundación Los Valles">
+          </div>
+          <span class="timeline__year">2025</span>
+          <h3 class="timeline__heading">Fundación Los Valles</h3>
+          <p class="timeline__text">
+            Colaboración en proyectos sociales y comunitarios de alto impacto.
+          </p>
+        </div>
+
       </div>
-      <span class="timeline__year">2024</span>
-      <h3 class="timeline__heading">Fundación ROFÉ</h3>
-      <p class="timeline__text">
-        Me vinculé a ROFÉ y trabajé en proyectos sociales con impacto comunitario.
-      </p>
-    </div>
+    </section>
 
-    <div class="timeline__item">
-      <div class="timeline__icon">
-        <img src="assets/proyecto3.png" alt="">
+    <!-- SECCIÓN SERVICIOS -->
+    <section class="services" id="servicios">
+      <h2 class="services__title">Servicios</h2>
+
+      <div class="services__container">
+
+        <div class="service__card">
+          <h3 class="service__heading">Desarrollo Web</h3>
+          <p class="service__text">
+            Creación de páginas sociales, portafolios, landing pages y diseños funcionales.
+          </p>
+        </div>
+
+        <div class="service__card">
+          <h3 class="service__heading">Automatizaciones</h3>
+          <p class="service__text">
+            Bots, flujos automáticos, gestión de WhatsApp y procesos personalizados.
+          </p>
+        </div>
+
+        <div class="service__card">
+          <h3 class="service__heading">Proyectos Sociales</h3>
+          <p class="service__text">
+            Diseño y fortalecimiento de iniciativas sociales con enfoque humano.
+          </p>
+        </div>
+
       </div>
-      <span class="timeline__year">2025</span>
-      <h3 class="timeline__heading">Fundación ROFÉ</h3>
-      <p class="timeline__text">
-        Me vinculé a ROFÉ y trabajé en proyectos sociales con impacto comunitario.
-      </p>
-    </div>
+    </section>
 
-    <div class="timeline__item">
-      <div class="timeline__icon">
-        <img src="assets/proyecto4.png" alt="">
-      </div>
-      <span class="timeline__year">2025</span>
-      <h3 class="timeline__heading">Semilleros</h3>
-      <p class="timeline__text">
-      comence a diseñar el proyecto social "Semilleros" una iniciativa que busca el acercaiento de los jovenes de escasos recursos a programas tecnologicos 100% gratuitos y de calidad
-      </p>
-    </div>
+    <!-- FOOTER -->
+    <footer class="footer" id="contacto">
+      <div class="footer-content">
 
-    <div class="timeline__item">
-      <div class="timeline__icon">
-        <img src="assets/proyecto5.png" alt="">
-      </div>
-      <span class="timeline__year">2025</span>
-      <h3 class="timeline__heading">Fundacion los valles</h3>
-      <p class="timeline__text">
-        comence a colaborar el flv en todas las areas donde pudiera aplicar mi conocimiento
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<!-- SECCION DE SERVICIOS-->
-
-<section class="services" id="servicios">
-  <h2 class="services__title">Servicios</h2>
-
-  <div class="services__container">
-    <div class="service__card">
-      <h3 class="service__heading">Desarrollo Web</h3>
-      <p class="service__text">
-        Creación de páginas con propósito social, portafolios, landing pages y diseños funcionales.
-      </p>
-    </div>
-
-    <div class="service__card">
-      <h3 class="service__heading">Automatizaciones</h3>
-      <p class="service__text">
-        Bots, flujos automáticos, gestión de WhatsApp y procesos creados a la medida.
-      </p>
-    </div>
-
-    <div class="service__card">
-      <h3 class="service__heading">Proyectos Sociales</h3>
-      <p class="service__text">
-        Diseño, acompañamiento y fortalecimiento de iniciativas sociales con enfoque humano.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!--SECCION DE FOOTER-->
-<footer class="footer">
-    <div class="footer-content">
-
-        <p class="footer-text">
-          © Felipe C. Ríos
-        </p>
+        <p class="footer-text">© Felipe C. Ríos</p>
 
         <div class="social-icons">
 
-            <!-- WhatsApp -->
-            <a href="https://wa.me/3122114428?text=Hola%20Felipe,%20vengo%20de%20tu%20página%20web%20y%20quiero%20tus%20servicios."
-               target="_blank">
-                <i class="ri-whatsapp-fill"></i>
-            </a>
+          <a href="https://wa.me/3122114428?text=Hola%20Felipe,%20vengo%20de%20tu%20página%20web%20y%20quiero%20tus%20servicios." target="_blank">
+            <i class="ri-whatsapp-fill"></i>
+          </a>
 
-            <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/Felipe-rios-of" target="_blank">
-                <i class="ri-linkedin-box-fill"></i>
-            </a>
+          <a href="https://www.linkedin.com/in/Felipe-rios-of" target="_blank">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
 
-            <!-- GitHub -->
-            <a href="https://github.com/FelipeRios-dev" target="_blank">
-                <i class="ri-github-fill"></i>
-            </a>
+          <a href="https://github.com/FelipeRios-dev" target="_blank">
+            <i class="ri-github-fill"></i>
+          </a>
 
-            <!-- Email -->
-            <a href="mailto:juancastrorios18@gmail.com" target="_blank">
-                <i class="ri-mail-fill"></i>
-            </a>
+          <a href="mailto:juancastrorios18@gmail.com" target="_blank">
+            <i class="ri-mail-fill"></i>
+          </a>
 
-            <!-- Instagram -->
-            <a href="https://instagram.com/jfc.180207" target="_blank">
-                <i class="ri-instagram-fill"></i>
-            </a>
+          <a href="https://instagram.com/jfc.180207" target="_blank">
+            <i class="ri-instagram-fill"></i>
+          </a>
+
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-<!-- CDN de RemixIcon -->
-<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
-
-
-<!-- LINK DEL SCRIPT DE JS-->
+    <!-- JS -->
     <script src="script.js"></script>
   </body>
 </html>
