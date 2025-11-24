@@ -287,28 +287,32 @@ ul li a:hover {
 /* ================================= */
 /*             SERVICIOS             */
 /* ================================= */
+/* ========= SECCIÓN SERVICIOS ========= */
 
 .services {
   padding: 5rem 2rem;
-  background: var(--primary-color-dark);
+  background: var(--primary-color-dark); /* Azul oscuro del fondo */
   text-align: center;
 }
 
+/* Título de la sección */
 .services__title {
-  color: var(--secondary-color);
   font-size: 2.5rem;
   margin-bottom: 3rem;
+  color: #ffffff; /* Ahora sí se ve */
 }
 
+/* Contenedor de tarjetas */
 .services__container {
-  display: flex;              /* ← Ahora aparecen uno al lado del otro */
+  display: flex;                 
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
 
+/* Tarjetas individuales */
 .service__card {
-  background: #112235;
+  background: #112235;              /* Azul ligeramente más claro para contraste */
   padding: 2rem;
   width: 280px;
   border-radius: 14px;
@@ -316,27 +320,44 @@ ul li a:hover {
   transition: 0.3s;
 }
 
+/* Hover de tarjeta */
 .service__card:hover {
   transform: translateY(-5px);
   border-color: var(--secondary-color);
   box-shadow: 0 0 20px #1f3a6340;
 }
 
-/* Botón Ver Más */
+/* Títulos de cada servicio */
+.service__heading {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #ffffff; /* Ahora visible */
+}
+
+/* Descripción */
+.service__text {
+  font-size: 1rem;
+  color: #ffffff; /* Antes no se veía */
+}
+
+/* Botón "Ver Más" */
 .service__more {
   margin-top: 15px;
   padding: 0.7rem 1.4rem;
   border-radius: 8px;
-  background: var(--secondary-color);
-  border: none;
-  color: white;
+  background: #ffffff;                 /* Botón blanco */
+  color: var(--primary-color-dark);    /* Texto azul oscuro */
   font-weight: 600;
+  border: none;
   cursor: pointer;
   transition: 0.3s;
 }
 
+/* Hover botón */
 .service__more:hover {
-  background: var(--primary-color);
+  background: #dfe8ff;                 /* Blanco azulado */
+  color: var(--primary-color);
 }
 
 /* ================================= */
